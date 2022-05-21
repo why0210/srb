@@ -15,7 +15,7 @@ spring:
     password: root
   # redis相关配置
   redis:
-    host: 81.68.140.136
+    host: X
     port: 6379
     database: 4
     timeout: 3000ms # 最大等待时间，超时则抛出异常
@@ -31,7 +31,7 @@ spring:
       discovery:
         server-addr: 127.0.0.1:8848
   rabbitmq:
-    host: 81.68.140.136
+    host: X
     port: 5672
     virtual-host: /
 
