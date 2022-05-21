@@ -13,9 +13,9 @@ spring:
 # 阿里云对象存储服务OSS配置（自定义配置格式）
 aliyun:
   oss:
-    endpoint: oss-cn-hangzhou.aliyuncs.com
-    keyId: LTAI5tQ4guK4AHurp1ktrvzw
-    keySecret: 7jkck7kMG2CgRDW0bVvCBSssCyyw1U
-    bucketName: srb-wuhaoyuan
+    endpoint: X
+    keyId: X
+    keySecret: X
+    bucketName: X
 
 
