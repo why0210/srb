@@ -7,7 +7,7 @@ spring:
     name: service-sms # 服务名
   # redis相关配置
   redis:
-    host: 81.68.140.136
+    host: X
     port: 6379
     database: 4
     timeout: 3000ms # 最大等待时间，超时则抛出异常
@@ -22,7 +22,7 @@ spring:
       discovery:
         server-addr: 127.0.0.1:8848 # 配置nacos注册中心地址
   rabbitmq:
-    host: 81.68.140.136
+    host: X
     port: 5672
     virtual-host: /
 
@@ -45,9 +45,9 @@ logging:
 #容联云配置
 app:
   cloopen:
-    account-sid: 8aaf0708809721d00180b852b6b008ff
-    auth-token: d19006ceab974b30b217f62b9d5d630b
-    app-id: 8aaf0708809721d00180b852b79a0906
+    account-sid: X
+    auth-token: X
+    app-id: X
     rest-url: https://app.cloopen.com:8883
 
 
